@@ -11,3 +11,13 @@
 # Example:
 # Input: hello@123  
 # Output: Strong password
+
+password = input("Provide me your password please: ")
+
+x = (len(password))
+y = " "
+
+if "@" in password and x >= 8 and not(y in password):
+    print("Strong password")
+else:
+    print("Weak password")

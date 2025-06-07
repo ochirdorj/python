@@ -8,3 +8,6 @@
 # Example:
 # Input: 5, 5, 5  
 # Output: Equilateral triangle
+
+input = int("Enter your 3 side triangle lenght: ")
+

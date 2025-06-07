@@ -12,3 +12,17 @@
 
 number = int(input("Please provide me the number you want to check:" ))
 
+if (number % 2 == 0):
+    print("Number is Even")
+else:
+    print("Number is Odd")
+if (number > 0):
+    print ("Number is Positive")
+elif (number < 0):
+    print("Number is Negative")
+else:
+    print("Number is Zero")
+
+
+ 
+    
