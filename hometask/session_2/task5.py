@@ -9,5 +9,21 @@
 # Input: 5, 5, 5  
 # Output: Equilateral triangle
 
-input = int("Enter your 3 side triangle lenght: ")
+x, y, z = input("Enter your 3 side triangle lenght: ").split()
 
+print(x, y, z)
+
+if x == y == z:
+    print("Equilateral triangle")
+elif x == y != z or x == z != y or y == z != x:
+    print("Isosceles triangle")
+elif x + y < z:
+    print("Not a triangle")
+elif x + z < y:
+    print("Not a triangle")
+elif y + z < x:
+    print("Not a triangle")
+elif  x != y != z:
+    print ("Scalene triangle")
+else:
+    print("Wrong input")
